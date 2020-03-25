@@ -1,1 +1,1 @@
-set number
+/home/canejo/.vim/vimrc

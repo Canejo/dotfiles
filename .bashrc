@@ -119,3 +119,4 @@ export DOCKER_HOST=tcp://192.168.99.100:2376
 export DOCKER_CERT_PATH=/mnt/c/Users/fcane/.docker/machine/certs
 export DOCKER_TLS_VERIFY=1
 alias config='/usr/bin/git --git-dir=/home/canejo/dotfiles --work-tree=/home/canejo'
+[ -z "$TMUX"  ] && { tmux attach || exec tmux new-session && exit;}
